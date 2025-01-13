@@ -354,6 +354,10 @@
     [
       "3c05a139-0458-42fa-b53c-1db5d985c9e4",
       "Digital outputs"
+    ],
+    [
+      "178dbe3d-cc28-49ed-9d60-e09a02802844",
+      "MIDI"
     ]
   ],
   "text_variables": {}

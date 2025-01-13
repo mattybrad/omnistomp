@@ -178,6 +178,14 @@
   )
 
 
+  (text_box "Input stage, usually mono, instrument level up to line level."
+    (at 111.76 21.59 0) (size 50.8 20.32)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 0b3ef182-1486-471e-b037-fb0b2005629b)
+  )
+
   (global_label "LINE_IN_R" (shape input) (at 135.89 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b6b7b6d1-3463-47f1-ac78-2d6d22c1db4f)

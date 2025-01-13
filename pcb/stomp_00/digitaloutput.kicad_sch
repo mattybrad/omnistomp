@@ -187,6 +187,14 @@
   )
 
 
+  (text_box "Digital outputs. Mainly for LEDs. Resistors?"
+    (at 101.6 24.13 0) (size 58.42 26.67)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 28e01403-e745-4714-a0d8-ce23b2863561)
+  )
+
   (symbol (lib_id "Device:R_US") (at 189.23 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2028b8e4-766a-4492-aaec-6c6f24b0aab4)
@@ -208,6 +216,9 @@
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R8") (unit 1)
+        )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -249,6 +260,9 @@
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "U12") (unit 1)
         )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "U14") (unit 1)
+        )
       )
     )
   )
@@ -274,6 +288,9 @@
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R9") (unit 1)
+        )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -301,6 +318,9 @@
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R4") (unit 1)
         )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R17") (unit 1)
+        )
       )
     )
   )
@@ -326,6 +346,9 @@
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R10") (unit 1)
+        )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -353,6 +376,9 @@
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R11") (unit 1)
         )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R24") (unit 1)
+        )
       )
     )
   )
@@ -378,6 +404,9 @@
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R7") (unit 1)
+        )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -405,6 +434,9 @@
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R6") (unit 1)
         )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R18") (unit 1)
+        )
       )
     )
   )
@@ -430,6 +462,9 @@
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/3c05a139-0458-42fa-b53c-1db5d985c9e4"
           (reference "R5") (unit 1)
+        )
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/178dbe3d-cc28-49ed-9d60-e09a02802844"
+          (reference "R21") (unit 1)
         )
       )
     )

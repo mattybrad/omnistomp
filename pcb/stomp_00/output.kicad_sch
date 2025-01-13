@@ -178,6 +178,14 @@
   )
 
 
+  (text_box "Output stage, from line down to instrument level."
+    (at 107.95 22.86 0) (size 53.34 20.32)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid afd6b4ce-0524-450f-b8db-22404e9449d7)
+  )
+
   (symbol (lib_id "Amplifier_Operational:TL072") (at 74.295 62.23 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ed4ff90-1c8e-4414-aa53-316af13bbb30)
