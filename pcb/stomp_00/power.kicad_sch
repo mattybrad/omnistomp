@@ -834,6 +834,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 8da18a5e-2bc8-4bc8-a755-85e2895bee10)
   )
+  (text_box "9V DC input goes to 5V via XL1509-5.0 switching regulator. AP7333 (or maybe AP7313, lower noise, used in Teensy audio adaptor schematic) provides clean 3.3V to SGTL5000."
+    (at 69.85 13.97 0) (size 60.96 30.48)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 9feaacb8-a22b-4965-99e7-72db1bc640ae)
+  )
 
   (text "Voltage regulator for DAC, provides low-noise signal.\nAP7333-33SRG, as used by Pimoroni.\nCheap and available on JLCPCB.\nPossible alternative is MIC5219-3.3YM5."
     (at 161.29 37.465 0)
