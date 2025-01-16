@@ -344,18 +344,6 @@
       "DAC"
     ],
     [
-      "f04d6357-f262-40b2-8272-377627a06bb4",
-      "Analog inputs"
-    ],
-    [
-      "c212ffd9-4be4-4b31-b430-fe718bd94dd5",
-      "Digital inputs"
-    ],
-    [
-      "3c05a139-0458-42fa-b53c-1db5d985c9e4",
-      "Digital outputs"
-    ],
-    [
       "178dbe3d-cc28-49ed-9d60-e09a02802844",
       "MIDI"
     ]
