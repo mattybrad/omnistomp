@@ -1,3 +1,6 @@
 [submodule "pcb/teensy_library"]
 	path = pcb/teensy_library
 	url = https://github.com/XenGi/teensy_library
+[submodule "pcb/teensy.pretty"]
+	path = pcb/teensy.pretty
+	url = git@github.com:XenGi/teensy.pretty
