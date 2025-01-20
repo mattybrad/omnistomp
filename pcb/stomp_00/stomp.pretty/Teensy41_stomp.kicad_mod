@@ -245,7 +245,6 @@
   (pad "47" thru_hole circle (at -26.67 -7.62) (size 1.6 1.6) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp c5101ff2-1497-4a40-a906-c2c5da167dbb))
   (pad "48" thru_hole circle (at -29.21 -10.16) (size 1.6 1.6) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 5e815cea-b24b-4bed-97c4-147c0ce86267))
   (pad "48" thru_hole circle (at -29.21 -7.62) (size 1.6 1.6) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 75c50200-7726-4d52-bc72-8357aa87d899))
-  (pad "49" thru_hole circle (at -26.67 -5.08) (size 1.6 1.6) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 0d8c3013-9376-4cac-b90d-6e4a2852bd81))
   (model "./Teensy_4.1_Assembly.STEP"
     (offset (xyz 0 0 0.762))
     (scale (xyz 1 1 1))

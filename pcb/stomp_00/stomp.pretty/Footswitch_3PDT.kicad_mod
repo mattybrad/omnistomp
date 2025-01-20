@@ -30,4 +30,9 @@
   (pad "7" thru_hole circle (at 10.6 9.6) (size 3.5 3.5) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp b562cc16-2000-4364-b7af-8b7d46b8a376))
   (pad "8" thru_hole circle (at 10.6 4.8) (size 3.5 3.5) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp f947641a-4c62-444a-82f2-398179740af9))
   (pad "9" thru_hole circle (at 10.6 0) (size 3.5 3.5) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 7a535827-59f3-4bdf-b173-c59780f79867))
+  (model "${KIPRJMOD}/stomp.pretty/SF17020F-0302-21R-L.step"
+    (offset (xyz 5.3 -4.8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
