@@ -1122,7 +1122,7 @@
     (property "Value" "470uF 25V" (at 106.299 63.8883 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" (at 103.378 63.246 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 103.378 63.246 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 103.378 63.246 0)
