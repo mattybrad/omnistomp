@@ -1738,7 +1738,7 @@
     (property "Reference" "J5" (at 101.6 43.9801 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x09" (at 101.6 45.9011 90)
+    (property "Value" "Footswitch_breakout" (at 101.6 45.9011 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "stomp:PinHeader_3x03_P2.54mm_Vertical_footswitch_breakout" (at 101.6 48.26 0)
