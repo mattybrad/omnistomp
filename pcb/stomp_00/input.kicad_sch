@@ -828,7 +828,7 @@
   (symbol (lib_id "Device:C") (at 130.81 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03a41f90-04ba-4077-aab2-d4f4130a69d2)
-    (property "Reference" "C15" (at 130.81 105.3211 90)
+    (property "Reference" "C12" (at 130.81 105.3211 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18p" (at 130.81 107.2421 90)
@@ -845,7 +845,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C15") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -880,7 +880,7 @@
           (reference "U2") (unit 2)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "U2") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -889,7 +889,7 @@
   (symbol (lib_id "Device:R_US") (at 140.97 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093a6e21-5c04-408d-9f0d-84f2962ef044)
-    (property "Reference" "R9" (at 140.97 76.1111 90)
+    (property "Reference" "R14" (at 140.97 76.1111 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 140.97 78.0321 90)
@@ -906,7 +906,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
   (symbol (lib_id "power:GNDA") (at 114.3 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 108ede06-6f26-4034-ac7c-fc7c7e4f2252)
-    (property "Reference" "#PWR025" (at 114.3 146.05 0)
+    (property "Reference" "#PWR016" (at 114.3 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 114.3 143.8355 0)
@@ -931,7 +931,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -940,7 +940,7 @@
   (symbol (lib_id "Device:C") (at 110.49 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1511c316-cedf-465b-9cb7-6daacbe4b50f)
-    (property "Reference" "C14" (at 110.49 105.3211 90)
+    (property "Reference" "C10" (at 110.49 105.3211 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 110.49 107.2421 90)
@@ -957,7 +957,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C14") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -966,7 +966,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 249bf463-a29c-4af6-9fa7-97e1eae97d37)
-    (property "Reference" "R5" (at 118.11 57.0611 90)
+    (property "Reference" "R10" (at 118.11 57.0611 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 118.11 58.9821 90)
@@ -983,7 +983,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -992,7 +992,7 @@
   (symbol (lib_id "Device:R_US") (at 114.3 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 277ee547-af0d-45c1-a980-805da5e331be)
-    (property "Reference" "R12" (at 115.951 135.2463 0)
+    (property "Reference" "R9" (at 115.951 135.2463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2M" (at 115.951 137.1673 0)
@@ -1009,7 +1009,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R12") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1018,7 +1018,7 @@
   (symbol (lib_id "power:+9V") (at 133.35 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28be7ab2-e04e-4f4a-93f9-e76a3ae74f28)
-    (property "Reference" "#PWR031" (at 133.35 162.56 0)
+    (property "Reference" "#PWR017" (at 133.35 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 133.35 155.2481 0)
@@ -1034,7 +1034,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
           (reference "U2") (unit 3)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "U2") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -1156,7 +1156,7 @@
   (symbol (lib_id "power:+3.3VA") (at 170.18 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b9a88e3-d106-4cc8-b516-c61277e9bf13)
-    (property "Reference" "#PWR016" (at 170.18 60.96 0)
+    (property "Reference" "#PWR023" (at 170.18 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 170.18 53.6481 0)
@@ -1172,7 +1172,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1181,7 +1181,7 @@
   (symbol (lib_id "Device:R_US") (at 114.3 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4154f6c2-8603-4c38-9b4c-f0686e948a38)
-    (property "Reference" "R11" (at 115.951 127.6263 0)
+    (property "Reference" "R8" (at 115.951 127.6263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2M" (at 115.951 129.5473 0)
@@ -1198,7 +1198,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1207,7 +1207,7 @@
   (symbol (lib_id "power:GNDA") (at 146.05 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 462ec33c-8260-4ed1-9dac-fdfd6c09c961)
-    (property "Reference" "#PWR026" (at 146.05 143.51 0)
+    (property "Reference" "#PWR020" (at 146.05 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 146.05 141.2955 0)
@@ -1223,7 +1223,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1232,7 +1232,7 @@
   (symbol (lib_id "power:GNDA") (at 106.68 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4974baa6-e790-4a27-a588-eaf7e5a72f5a)
-    (property "Reference" "#PWR023" (at 106.68 69.85 0)
+    (property "Reference" "#PWR011" (at 106.68 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 106.68 67.6355 0)
@@ -1248,7 +1248,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1257,7 +1257,7 @@
   (symbol (lib_id "power:GNDA") (at 154.94 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bb13ef8-f28c-41d9-a674-99b4973814ec)
-    (property "Reference" "#PWR027" (at 154.94 120.65 0)
+    (property "Reference" "#PWR022" (at 154.94 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 154.94 118.4355 0)
@@ -1273,7 +1273,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "power:+9V") (at 114.3 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f1560eb-e2ca-4e26-94cd-499df73b6d73)
-    (property "Reference" "#PWR030" (at 114.3 128.27 0)
+    (property "Reference" "#PWR015" (at 114.3 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 114.3 120.9581 0)
@@ -1298,7 +1298,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1307,7 +1307,7 @@
   (symbol (lib_id "power:GNDA") (at 154.94 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 675c7983-a6b9-4fa3-a013-76df1a2ec6f2)
-    (property "Reference" "#PWR017" (at 154.94 71.12 0)
+    (property "Reference" "#PWR021" (at 154.94 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 154.94 68.9055 0)
@@ -1323,7 +1323,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1332,7 +1332,7 @@
   (symbol (lib_id "Device:R_US") (at 118.11 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 849d0f83-b9e7-436c-be80-2c7d666c70e1)
-    (property "Reference" "R13" (at 118.11 106.5911 90)
+    (property "Reference" "R11" (at 118.11 106.5911 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 118.11 108.5121 90)
@@ -1349,7 +1349,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1384,7 +1384,7 @@
           (reference "U2") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1393,7 +1393,7 @@
   (symbol (lib_id "Device:C") (at 146.05 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b22e232-1f4a-437e-82fa-93ceb8360217)
-    (property "Reference" "C16" (at 148.971 132.7063 0)
+    (property "Reference" "C15" (at 148.971 132.7063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 148.971 134.6273 0)
@@ -1410,7 +1410,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 162.56 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9527d734-9b9a-48dd-8c0d-c9390d02d3b6)
-    (property "Reference" "D4" (at 162.56 106.3371 0)
+    (property "Reference" "D3" (at 162.56 106.3371 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54S" (at 162.56 108.2581 0)
@@ -1437,7 +1437,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1446,7 +1446,7 @@
   (symbol (lib_id "power:GNDA") (at 133.35 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97c0237b-5935-4029-a941-f5ed8b9e00c7)
-    (property "Reference" "#PWR032" (at 133.35 180.34 0)
+    (property "Reference" "#PWR018" (at 133.35 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 133.35 178.1255 0)
@@ -1462,7 +1462,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1471,7 +1471,7 @@
   (symbol (lib_id "Device:C") (at 146.05 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9de4c547-9c5d-453f-adbb-1d07ffd353d5)
-    (property "Reference" "C12" (at 148.971 83.1763 0)
+    (property "Reference" "C14" (at 148.971 83.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n" (at 148.971 85.0973 0)
@@ -1488,7 +1488,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -1497,7 +1497,7 @@
   (symbol (lib_id "Device:R_US") (at 130.81 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0f4d9af-cf0e-4a5d-aa5c-26dc0afaa745)
-    (property "Reference" "R8" (at 130.81 65.9511 90)
+    (property "Reference" "R12" (at 130.81 65.9511 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.2k" (at 130.81 67.8721 90)
@@ -1514,7 +1514,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R8") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1523,7 +1523,7 @@
   (symbol (lib_id "Device:R_US") (at 101.6 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b73d8d9b-6257-4c71-b240-ef327193c5c8)
-    (property "Reference" "R10" (at 103.251 135.2463 0)
+    (property "Reference" "R5" (at 103.251 135.2463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 103.251 137.1673 0)
@@ -1540,7 +1540,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R10") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1549,7 +1549,7 @@
   (symbol (lib_id "Device:R_US") (at 130.81 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baa409cc-dd6f-44ab-9526-f271bb5c49b0)
-    (property "Reference" "R14" (at 130.81 115.4811 90)
+    (property "Reference" "R13" (at 130.81 115.4811 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.2k" (at 130.81 117.4021 90)
@@ -1566,7 +1566,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1575,7 +1575,7 @@
   (symbol (lib_id "power:GNDA") (at 114.3 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcf46f06-02b2-4da8-9790-75b5ebfb8f1e)
-    (property "Reference" "#PWR022" (at 114.3 96.52 0)
+    (property "Reference" "#PWR014" (at 114.3 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 114.3 94.3055 0)
@@ -1591,7 +1591,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1600,7 +1600,7 @@
   (symbol (lib_id "power:+3.3VA") (at 170.18 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid beb078b3-78bf-4921-8ee8-76a9729acd49)
-    (property "Reference" "#PWR028" (at 170.18 110.49 0)
+    (property "Reference" "#PWR024" (at 170.18 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 170.18 103.1781 0)
@@ -1616,7 +1616,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1625,7 +1625,7 @@
   (symbol (lib_id "power:GNDA") (at 146.05 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2320b72-62da-4447-a703-0f37cd349594)
-    (property "Reference" "#PWR021" (at 146.05 93.98 0)
+    (property "Reference" "#PWR019" (at 146.05 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 146.05 91.7655 0)
@@ -1641,7 +1641,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1702,7 +1702,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 162.56 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1ec22b3-8e26-4cdf-839c-879fa95eb5d3)
-    (property "Reference" "D1" (at 162.56 56.8071 0)
+    (property "Reference" "D2" (at 162.56 56.8071 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54S" (at 162.56 58.7281 0)
@@ -1720,7 +1720,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1729,7 +1729,7 @@
   (symbol (lib_id "Device:C") (at 156.21 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2440d7f-4bb8-47e0-bdf1-630cdadfe281)
-    (property "Reference" "C11" (at 156.21 74.8411 90)
+    (property "Reference" "C16" (at 156.21 74.8411 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 156.21 76.7621 90)
@@ -1746,7 +1746,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C11") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1755,7 +1755,7 @@
   (symbol (lib_id "power:GNDA") (at 106.68 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaa53510-7266-4efa-9df0-62920df0d8db)
-    (property "Reference" "#PWR024" (at 106.68 119.38 0)
+    (property "Reference" "#PWR012" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 106.68 117.1655 0)
@@ -1771,7 +1771,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1780,7 +1780,7 @@
   (symbol (lib_id "Device:C") (at 107.95 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f18744ab-e9f2-447c-bdd2-14923c5d0c97)
-    (property "Reference" "C13" (at 107.95 126.9111 90)
+    (property "Reference" "C8" (at 107.95 126.9111 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 107.95 128.8321 90)
@@ -1797,7 +1797,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C13") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1806,7 +1806,7 @@
   (symbol (lib_id "Device:C") (at 107.95 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f267821e-7179-44c9-b1bb-6d988747497b)
-    (property "Reference" "C8" (at 107.95 77.3811 90)
+    (property "Reference" "C7" (at 107.95 77.3811 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 107.95 79.3021 90)
@@ -1823,7 +1823,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1832,7 +1832,7 @@
   (symbol (lib_id "Device:C") (at 130.81 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5723707-4607-4c09-a144-0d63ba9ab60b)
-    (property "Reference" "C10" (at 130.81 55.7911 90)
+    (property "Reference" "C11" (at 130.81 55.7911 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18p" (at 130.81 57.7121 90)
@@ -1849,7 +1849,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1858,7 +1858,7 @@
   (symbol (lib_id "Device:C") (at 110.49 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa4ac696-1ce8-41d5-8c19-f50158fd1035)
-    (property "Reference" "C7" (at 110.49 55.7911 90)
+    (property "Reference" "C9" (at 110.49 55.7911 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10u" (at 110.49 57.7121 90)
@@ -1875,7 +1875,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1884,7 +1884,7 @@
   (symbol (lib_id "Device:C") (at 144.78 166.37 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa53e618-e5e0-41b9-9800-51d8133c04f8)
-    (property "Reference" "C18" (at 147.701 165.7263 0)
+    (property "Reference" "C13" (at 147.701 165.7263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 147.701 167.6473 0)
@@ -1901,7 +1901,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "C18") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1910,7 +1910,7 @@
   (symbol (lib_id "power:+9V") (at 114.3 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb283cdb-2200-473a-b783-4d2159d029f6)
-    (property "Reference" "#PWR029" (at 114.3 78.74 0)
+    (property "Reference" "#PWR013" (at 114.3 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 114.3 71.4281 0)
@@ -1926,7 +1926,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )

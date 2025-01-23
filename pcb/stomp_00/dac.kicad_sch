@@ -990,7 +990,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -999,7 +999,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 120.65 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 160bcdce-ecda-4a00-af25-5bb1af6aed82)
-    (property "Reference" "C1" (at 123.571 64.7613 0)
+    (property "Reference" "C21" (at 123.571 64.7613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 123.571 66.6823 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C1") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1025,7 +1025,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 167.64 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ab6a1cf-3283-4f43-8c41-27f24a23286d)
-    (property "Reference" "C9" (at 170.561 52.0613 0)
+    (property "Reference" "C24" (at 170.561 52.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 170.561 53.9823 0)
@@ -1042,7 +1042,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C9") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1051,7 +1051,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 156.21 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f00d549-957a-48fe-9bc0-850160daf152)
-    (property "Reference" "C5" (at 159.131 52.0613 0)
+    (property "Reference" "C23" (at 159.131 52.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 159.131 53.9823 0)
@@ -1068,7 +1068,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C5") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1077,7 +1077,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 124.46 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2509fec7-0cc0-48c3-865e-a600bea4ceeb)
-    (property "Reference" "C25" (at 125.095 71.0311 90)
+    (property "Reference" "C22" (at 125.095 71.0311 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.15uF" (at 125.095 72.9521 90)
@@ -1094,7 +1094,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C25") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1103,7 +1103,7 @@
   (symbol (lib_id "Device:R_US") (at 180.34 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc5aae6-cbe7-430a-b1c2-45a7dd44272e)
-    (property "Reference" "R17" (at 181.991 94.6063 0)
+    (property "Reference" "R19" (at 181.991 94.6063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 181.991 96.5273 0)
@@ -1120,7 +1120,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R17") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1158,7 +1158,7 @@
           (reference "U5") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1194,7 +1194,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1230,7 +1230,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 172.72 81.28 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54c37861-4c09-4e99-a5fe-be2dc7568e58)
-    (property "Reference" "C21" (at 172.085 76.1111 90)
+    (property "Reference" "C25" (at 172.085 76.1111 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 172.085 78.0321 90)
@@ -1256,7 +1256,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C21") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -1292,7 +1292,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
   (symbol (lib_id "Device:R_US") (at 111.76 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bfe7d36-9b3f-416a-9a80-421fbccc6b5d)
-    (property "Reference" "R3" (at 111.76 92.6211 90)
+    (property "Reference" "R18" (at 111.76 92.6211 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 111.76 94.5421 90)
@@ -1318,7 +1318,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R3") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1327,7 +1327,7 @@
   (symbol (lib_id "Device:R_US") (at 189.23 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 748a3702-dfa0-4cde-9152-0854a3fc6872)
-    (property "Reference" "R18" (at 190.881 94.6063 0)
+    (property "Reference" "R20" (at 190.881 94.6063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 190.881 96.5273 0)
@@ -1344,7 +1344,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R18") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
   (symbol (lib_id "power:+3.3V") (at 104.14 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e149266-1dc6-4948-b42a-30ecdbebec35)
-    (property "Reference" "#PWR010" (at 104.14 109.22 0)
+    (property "Reference" "#PWR026" (at 104.14 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 104.14 101.9081 0)
@@ -1369,7 +1369,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1378,7 +1378,7 @@
   (symbol (lib_id "Device:R_US") (at 107.95 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e5e67f7-54e4-4b4b-a4d5-2196d66ac74d)
-    (property "Reference" "R1" (at 109.601 108.5763 0)
+    (property "Reference" "R17" (at 109.601 108.5763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 109.601 110.4973 0)
@@ -1395,7 +1395,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R1") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1404,7 +1404,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 73.66 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 816b5734-5527-4843-8bcd-e9c87ccc14d6)
-    (property "Reference" "C3" (at 76.581 52.0613 0)
+    (property "Reference" "C19" (at 76.581 52.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 76.581 53.9823 0)
@@ -1421,7 +1421,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C3") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 62.23 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81f2ed6a-7deb-4843-ae08-30135b452e46)
-    (property "Reference" "C2" (at 65.151 52.0613 0)
+    (property "Reference" "C18" (at 65.151 52.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 65.151 53.9823 0)
@@ -1447,7 +1447,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C2") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1475,7 +1475,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1484,7 +1484,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 85.09 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92fc3479-016f-438a-9a34-c2fa49062ab8)
-    (property "Reference" "C4" (at 88.011 52.0613 0)
+    (property "Reference" "C20" (at 88.011 52.0613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 88.011 53.9823 0)
@@ -1501,7 +1501,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C4") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1510,7 +1510,7 @@
   (symbol (lib_id "Device:R_US") (at 99.06 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a742c8a3-c8bc-4339-9235-e251bd7814e9)
-    (property "Reference" "R2" (at 100.711 108.5763 0)
+    (property "Reference" "R16" (at 100.711 108.5763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2k" (at 100.711 110.4973 0)
@@ -1527,7 +1527,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R2") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1536,7 +1536,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 172.72 88.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af77327f-6601-4064-910d-7b5b2d143d02)
-    (property "Reference" "C22" (at 172.085 83.7311 90)
+    (property "Reference" "C26" (at 172.085 83.7311 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 172.085 85.6521 90)
@@ -1553,7 +1553,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "C22") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1562,7 +1562,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 163.83 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc66b65c-1b89-4b99-b4e0-9dc0f4ac6c8d)
-    (property "Reference" "J1" (at 165.862 100.9563 0)
+    (property "Reference" "J12" (at 165.862 100.9563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Headphones" (at 165.862 102.8773 0)
@@ -1580,7 +1580,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "J1") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1589,7 +1589,7 @@
   (symbol (lib_id "Device:R_US") (at 201.93 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd5c8f6f-c68c-4aae-9b20-ae825158f9c2)
-    (property "Reference" "R20" (at 201.93 85.0011 90)
+    (property "Reference" "R22" (at 201.93 85.0011 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 201.93 86.9221 90)
@@ -1606,7 +1606,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R20") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1615,7 +1615,7 @@
   (symbol (lib_id "Audio:SGTL5000XNLA3") (at 143.51 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df488be0-4dfd-4b51-9277-4d11d1efb401)
-    (property "Reference" "U3" (at 145.4659 123.6425 0)
+    (property "Reference" "U5" (at 145.4659 123.6425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SGTL5000XNLA3" (at 145.4659 125.5635 0)
@@ -1651,7 +1651,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1660,7 +1660,7 @@
   (symbol (lib_id "Device:R_US") (at 201.93 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0736dd2-4592-4670-a6e7-1541703c9600)
-    (property "Reference" "R19" (at 201.93 77.3811 90)
+    (property "Reference" "R21" (at 201.93 77.3811 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 201.93 79.3021 90)
@@ -1677,7 +1677,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "R19") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1713,7 +1713,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1741,7 +1741,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/7598c0f0-0137-4b50-80b5-b929d25c284a"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )

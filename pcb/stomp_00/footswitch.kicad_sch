@@ -1420,7 +1420,7 @@
           (reference "J2") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J3") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1449,7 +1449,7 @@
           (reference "D5") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1458,7 +1458,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise") (at 149.86 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 171b792d-9cae-4577-8cf0-3e3cee745747)
-    (property "Reference" "J6" (at 151.13 30.0101 0)
+    (property "Reference" "J14" (at 151.13 30.0101 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Counter_Clockwise" (at 151.13 31.9311 0)
@@ -1483,7 +1483,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J6") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1606,7 +1606,7 @@
           (reference "SW2") (unit 2)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "SW2") (unit 2)
+          (reference "SW1") (unit 2)
         )
       )
     )
@@ -1635,7 +1635,7 @@
           (reference "R16") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "R16") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1671,7 +1671,7 @@
           (reference "SW2") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
           (reference "J5") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J2") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1799,7 +1799,7 @@
           (reference "J3") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J5") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1892,7 +1892,7 @@
           (reference "SW2") (unit 3)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "SW2") (unit 3)
+          (reference "SW1") (unit 3)
         )
       )
     )
