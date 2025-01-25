@@ -5587,7 +5587,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 03d4ed23-17ee-416c-b79a-82448eb52715)
-    (at 4 74.35 90)
+    (at 12.6 73.35 -90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -5647,7 +5647,7 @@
       (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 4780bbea-a601-49e6-9c3d-e8c7fe4ecf78))
     (fp_line (start 1.65 -1.25) (end 1.65 1.25)
       (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 33c1aa88-fdc0-4838-9dc6-218e305e8b1e))
-    (pad "1" smd custom (at -0.65 0 90) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "1" smd custom (at -0.65 0 270) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 62 "FOOTSWITCH_5") (pinfunction "A") (pintype "passive") (zone_connect 2) (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -5662,7 +5662,7 @@
           )
           (width 0) (fill yes))
       ) (tstamp 0bf9a4eb-1d7e-48fd-9422-60b61da7748d))
-    (pad "2" smd custom (at 0.65 0 90) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "2" smd custom (at 0.65 0 270) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 9 "GNDA") (pinfunction "B") (pintype "passive") (zone_connect 2) (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -5681,7 +5681,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 0b42975d-128b-4ea0-8fd4-56576cf77906)
-    (at 7 74.35 -90)
+    (at 12.6 69.95 -90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -5850,7 +5850,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 330d63fc-4342-4313-b115-195b3fbff512)
-    (at 13 74.35 90)
+    (at 15.2 73.35 90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -5944,7 +5944,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 44a74572-5fb3-4635-8ec0-5f95b1936f32)
-    (at 16 74.35 90)
+    (at 15.2 69.95 90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -6038,7 +6038,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 4e4f2516-30f8-4ad5-a0fb-a6ab0e3bf608)
-    (at 10 70.35 -90)
+    (at 10 69.95 -90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -6132,7 +6132,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 6cd1bcf3-f560-4f6c-b67b-3e66812187b4)
-    (at 10 74.35 90)
+    (at 15.2 76.75 90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -6226,7 +6226,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp 8c56502b-a3b3-4caf-855f-bcd7485d5165)
-    (at 4 70.35 90)
+    (at 10 76.75 -90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
@@ -6286,7 +6286,7 @@
       (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 713a6a99-841f-4a68-aa67-171574a93072))
     (fp_line (start 1.65 -1.25) (end 1.65 1.25)
       (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 532cb485-fd44-41d0-af85-587153a8a09f))
-    (pad "1" smd custom (at -0.65 0 90) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "1" smd custom (at -0.65 0 270) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 24 "FOOTSWITCH_1") (pinfunction "A") (pintype "passive") (zone_connect 2) (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -6301,7 +6301,7 @@
           )
           (width 0) (fill yes))
       ) (tstamp e80a2de8-2fb9-486b-a53c-827d82de42cb))
-    (pad "2" smd custom (at 0.65 0 90) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "2" smd custom (at 0.65 0 270) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 264 "Net-(JP3-B)") (pinfunction "B") (pintype "passive") (zone_connect 2) (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -6320,7 +6320,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tstamp dbfc9401-6bc8-4b9b-b0b0-8f5a92a9710a)
-    (at 7 70.35 -90)
+    (at 10 73.35 -90)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips")
     (tags "net tie solder jumper bridged")
     (property "Sheetfile" "footswitch.kicad_sch")
