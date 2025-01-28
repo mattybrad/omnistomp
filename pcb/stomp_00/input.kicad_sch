@@ -440,11 +440,11 @@
         )
       )
     )
-    (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3VA" (at 0 3.556 0)
+      (property "Value" "+3.3V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -456,10 +456,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3VA\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3VA_0_1"
+      (symbol "+3.3V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -485,9 +485,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3VA_1_1"
+      (symbol "+3.3V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VA" (effects (font (size 1.27 1.27))))
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -544,11 +544,11 @@
         )
       )
     )
-    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GNDA" (at 0 -3.81 0)
+      (property "Value" "GND" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -560,10 +560,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GNDA_0_1"
+      (symbol "GND_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -577,9 +577,9 @@
           (fill (type none))
         )
       )
-      (symbol "GNDA_1_1"
+      (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDA" (effects (font (size 1.27 1.27))))
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1021,13 +1021,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 114.3 148.59 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 114.3 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 108ede06-6f26-4034-ac7c-fc7c7e4f2252)
-    (property "Reference" "#PWR016" (at 114.3 154.94 0)
+    (property "Reference" "#PWR022" (at 114.3 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 114.3 152.7255 0)
+    (property "Value" "GND" (at 114.3 152.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 114.3 148.59 0)
@@ -1036,11 +1036,11 @@
     (property "Datasheet" "" (at 114.3 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bd4774a-8899-4de0-8123-d62591ca4dc6))
+    (pin "1" (uuid bd21be57-b5b5-4460-ac49-060a53544dfe))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1127,7 +1127,7 @@
   (symbol (lib_id "power:+9V") (at 133.35 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28be7ab2-e04e-4f4a-93f9-e76a3ae74f28)
-    (property "Reference" "#PWR017" (at 133.35 162.56 0)
+    (property "Reference" "#PWR023" (at 133.35 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 133.35 155.2481 0)
@@ -1143,7 +1143,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1262,13 +1262,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3VA") (at 182.88 49.53 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 182.88 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b9a88e3-d106-4cc8-b516-c61277e9bf13)
-    (property "Reference" "#PWR023" (at 182.88 53.34 0)
+    (property "Reference" "#PWR029" (at 182.88 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3VA" (at 182.88 46.0281 0)
+    (property "Value" "+3.3V" (at 182.88 45.974 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 182.88 49.53 0)
@@ -1281,7 +1281,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1339,13 +1339,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 158.75 146.05 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 158.75 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 462ec33c-8260-4ed1-9dac-fdfd6c09c961)
-    (property "Reference" "#PWR020" (at 158.75 152.4 0)
+    (property "Reference" "#PWR026" (at 158.75 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 158.75 150.1855 0)
+    (property "Value" "GND" (at 158.75 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 158.75 146.05 0)
@@ -1354,23 +1354,23 @@
     (property "Datasheet" "" (at 158.75 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 670ae0a8-8bd6-44a1-923c-57a29860d383))
+    (pin "1" (uuid 6dd1c402-039f-4f1f-a825-789dddbfc181))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 106.68 55.88 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 106.68 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4974baa6-e790-4a27-a588-eaf7e5a72f5a)
-    (property "Reference" "#PWR011" (at 106.68 62.23 0)
+    (property "Reference" "#PWR017" (at 106.68 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 106.68 60.0155 0)
+    (property "Value" "GND" (at 106.68 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 106.68 55.88 0)
@@ -1379,23 +1379,23 @@
     (property "Datasheet" "" (at 106.68 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9aabca7-0965-4471-b621-d8ea1ea837ef))
+    (pin "1" (uuid 4b300ec1-b826-4814-83f7-d96057d9c6be))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 167.64 114.3 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 167.64 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bb13ef8-f28c-41d9-a674-99b4973814ec)
-    (property "Reference" "#PWR022" (at 167.64 120.65 0)
+    (property "Reference" "#PWR028" (at 167.64 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 167.64 118.4355 0)
+    (property "Value" "GND" (at 167.64 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 167.64 114.3 0)
@@ -1404,11 +1404,11 @@
     (property "Datasheet" "" (at 167.64 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0b9da11c-074e-4047-8d5e-3acc754556c6))
+    (pin "1" (uuid 5e1ab40d-6c07-49c9-96de-87cb42964e4c))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1443,7 +1443,7 @@
   (symbol (lib_id "power:+9V") (at 114.3 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f1560eb-e2ca-4e26-94cd-499df73b6d73)
-    (property "Reference" "#PWR015" (at 114.3 137.16 0)
+    (property "Reference" "#PWR021" (at 114.3 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 114.3 129.8481 0)
@@ -1459,19 +1459,19 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 167.64 57.15 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 167.64 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 675c7983-a6b9-4fa3-a013-76df1a2ec6f2)
-    (property "Reference" "#PWR021" (at 167.64 63.5 0)
+    (property "Reference" "#PWR027" (at 167.64 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 167.64 61.2855 0)
+    (property "Value" "GND" (at 167.64 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 167.64 57.15 0)
@@ -1480,11 +1480,11 @@
     (property "Datasheet" "" (at 167.64 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d88499d-8515-4048-9f67-b26741d6ce7d))
+    (pin "1" (uuid fe9b1599-16b3-4a3b-8cf1-95c20b218fe2))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1580,7 +1580,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 175.26 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9527d734-9b9a-48dd-8c0d-c9390d02d3b6)
-    (property "Reference" "D3" (at 175.26 106.3371 0)
+    (property "Reference" "D4" (at 175.26 106.3371 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54S" (at 175.26 108.2581 0)
@@ -1598,19 +1598,19 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 133.35 173.99 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 133.35 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97c0237b-5935-4029-a941-f5ed8b9e00c7)
-    (property "Reference" "#PWR018" (at 133.35 180.34 0)
+    (property "Reference" "#PWR024" (at 133.35 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 133.35 178.1255 0)
+    (property "Value" "GND" (at 133.35 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 133.35 173.99 0)
@@ -1619,11 +1619,11 @@
     (property "Datasheet" "" (at 133.35 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c303d5f-0487-41a7-9bd5-ad80db7793d5))
+    (pin "1" (uuid 111e943f-9b5b-4b04-8457-9788391d8d4d))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1759,13 +1759,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 114.3 90.17 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 114.3 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcf46f06-02b2-4da8-9790-75b5ebfb8f1e)
-    (property "Reference" "#PWR014" (at 114.3 96.52 0)
+    (property "Reference" "#PWR020" (at 114.3 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 114.3 94.3055 0)
+    (property "Value" "GND" (at 114.3 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 114.3 90.17 0)
@@ -1774,11 +1774,11 @@
     (property "Datasheet" "" (at 114.3 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 108a2a69-d403-496c-86be-6a833d020cb3))
+    (pin "1" (uuid e9d440e7-c836-4068-9e49-205bb266f311))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1810,13 +1810,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3VA") (at 182.88 106.68 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 182.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid beb078b3-78bf-4921-8ee8-76a9729acd49)
-    (property "Reference" "#PWR024" (at 182.88 110.49 0)
+    (property "Reference" "#PWR030" (at 182.88 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3VA" (at 182.88 103.1781 0)
+    (property "Value" "+3.3V" (at 182.88 103.124 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 182.88 106.68 0)
@@ -1829,19 +1829,19 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 158.75 87.63 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 158.75 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2320b72-62da-4447-a703-0f37cd349594)
-    (property "Reference" "#PWR019" (at 158.75 93.98 0)
+    (property "Reference" "#PWR025" (at 158.75 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 158.75 91.7655 0)
+    (property "Value" "GND" (at 158.75 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 158.75 87.63 0)
@@ -1850,11 +1850,11 @@
     (property "Datasheet" "" (at 158.75 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52c6cd89-26c1-41cc-bc44-d50cf6472ae8))
+    (pin "1" (uuid 948f024f-0145-4442-abea-73c803637631))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1915,7 +1915,7 @@
   (symbol (lib_id "Diode:BAT54S") (at 175.26 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1ec22b3-8e26-4cdf-839c-879fa95eb5d3)
-    (property "Reference" "D2" (at 175.26 49.1871 0)
+    (property "Reference" "D3" (at 175.26 49.1871 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54S" (at 175.26 51.1081 0)
@@ -1933,7 +1933,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1965,13 +1965,13 @@
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 106.68 113.03 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 106.68 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaa53510-7266-4efa-9df0-62920df0d8db)
-    (property "Reference" "#PWR012" (at 106.68 119.38 0)
+    (property "Reference" "#PWR018" (at 106.68 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 106.68 117.1655 0)
+    (property "Value" "GND" (at 106.68 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 106.68 113.03 0)
@@ -1980,11 +1980,11 @@
     (property "Datasheet" "" (at 106.68 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 789d0d5a-4824-4810-bb71-b0870793d289))
+    (pin "1" (uuid ef6777d6-046e-4e27-a6c7-02ee8b160c48))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2123,7 +2123,7 @@
   (symbol (lib_id "power:+9V") (at 114.3 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb283cdb-2200-473a-b783-4d2159d029f6)
-    (property "Reference" "#PWR013" (at 114.3 78.74 0)
+    (property "Reference" "#PWR019" (at 114.3 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 114.3 71.4281 0)
@@ -2139,7 +2139,7 @@
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )

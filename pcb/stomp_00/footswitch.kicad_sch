@@ -703,11 +703,11 @@
         )
       )
     )
-    (symbol "power:GNDA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GNDA" (at 0 -3.81 0)
+      (property "Value" "GND" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -719,10 +719,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GNDA\" , analog ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GNDA_0_1"
+      (symbol "GND_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -736,9 +736,9 @@
           (fill (type none))
         )
       )
-      (symbol "GNDA_1_1"
+      (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GNDA" (effects (font (size 1.27 1.27))))
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1150,21 +1150,6 @@
     (uuid fafe0fb6-1425-442a-8a75-e0eebd0bce85)
   )
 
-  (text_box "Breakout pins for:\ninput jack (open jumper to circuit in)\noutput jack (open jumper from circuit out)\ncircuit in L\ncircuit in R\ncircuit out L\ncircuit out R\nheadphone out L/R?\nled negative?"
-    (at 203.2 7.62 0) (size 52.07 25.4)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 8fbb0f0f-a510-42fe-8d79-4308ef25e548)
-  )
-  (text_box "Add default routing with cuttable traces:\n\n1: 7\n2: guitar input tip\n3: circuit audio input\n\n4: not connected\n5: ground\n6: led negative\n\n7: 1\n8: guitar output tip\n9: circuit audio output"
-    (at 20.32 15.24 0) (size 43.18 30.48)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid ea893774-65ad-4fa5-8034-c978f892e2d3)
-  )
-
   (global_label "FOOTSWITCH_9" (shape output) (at 46.99 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 118d07ce-266c-4795-8d16-65199b103137)
@@ -1355,7 +1340,7 @@
           (reference "J2") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J15") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1384,7 +1369,7 @@
           (reference "D5") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "D4") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1700,19 +1685,19 @@
           (reference "J3") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "J16") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GNDA") (at 184.15 104.14 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 184.15 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8d235d1-35e8-4a1d-8160-13617596ee59)
     (property "Reference" "#PWR033" (at 184.15 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GNDA" (at 184.15 108.2755 0)
+    (property "Value" "GND" (at 184.15 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 184.15 104.14 0)
@@ -1721,14 +1706,14 @@
     (property "Datasheet" "" (at 184.15 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47816c33-6cb0-4c36-8a7a-f89a622808bc))
+    (pin "1" (uuid 1e5b81e7-9a9a-4cfc-b266-a381d5e69194))
     (instances
       (project "stomp_00"
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e"
           (reference "#PWR033") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1821,7 +1806,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
