@@ -651,11 +651,11 @@
         )
       )
     )
-    (symbol "power:+9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+9V" (at 0 3.556 0)
+      (property "Value" "+3.3V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -667,10 +667,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+9V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+9V_0_1"
+      (symbol "+3.3V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -696,9 +696,9 @@
           (fill (type none))
         )
       )
-      (symbol "+9V_1_1"
+      (symbol "+3.3V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+9V" (effects (font (size 1.27 1.27))))
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1784,13 +1784,13 @@
     )
   )
 
-  (symbol (lib_id "power:+9V") (at 204.47 83.82 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 204.47 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c17877b7-a9b0-470e-89c2-e11bc6614b0b)
-    (property "Reference" "#PWR034" (at 204.47 87.63 0)
+    (uuid bf81bbe8-b7ef-42fd-87f6-48a920098204)
+    (property "Reference" "#PWR?" (at 204.47 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+9V" (at 204.47 80.3181 0)
+    (property "Value" "+3.3V" (at 204.47 80.264 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 204.47 83.82 0)
@@ -1799,11 +1799,14 @@
     (property "Datasheet" "" (at 204.47 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 66d020aa-7c83-4f00-b48f-47cc103cfd44))
+    (pin "1" (uuid 51609034-1de9-497c-9def-2124a8556676))
     (instances
       (project "stomp_00"
+        (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/9942492d-ba8b-45b2-b427-7fe14bedb7e0"
+          (reference "#PWR?") (unit 1)
+        )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
         (path "/8f4a2eb0-078b-46cb-b534-a4acd11d130e/8515bfbc-58f4-43ce-a6da-807641c93feb"
           (reference "#PWR040") (unit 1)
