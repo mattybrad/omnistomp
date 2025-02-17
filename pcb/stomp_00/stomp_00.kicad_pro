@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_sliver|9021725|75310000|00000000-0000-0000-0000-000000000000|B.Cu",
+        "silk_overlap|16499998|79050000|741c9f97-2517-4682-ac15-a310bf4a122b|6cc51c5e-522a-4afb-9561-029ddfde1e40",
+        "silk_overlap|8500002|79050000|5623136e-7218-45d7-8b20-41460fc2d330|741c9f97-2517-4682-ac15-a310bf4a122b"
+      ],
       "meta": {
         "version": 2
       },
@@ -96,7 +100,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",

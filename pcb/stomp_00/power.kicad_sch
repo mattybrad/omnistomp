@@ -1137,7 +1137,7 @@
     (property "Value" "6.8uH" (at 158.75 83.4957 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_Changjiang_FNR4020S" (at 158.75 85.09 0)
+    (property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6045S" (at 158.75 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 158.75 85.09 0)
